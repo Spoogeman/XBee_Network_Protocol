@@ -1,8 +1,8 @@
 About:
 
-The Xbee Network Protocol is designed to allow Xbee-enabled Arduino Mega伍西s (and eventually UNOs) to communicate with one another wirelessly (the versions used with XNP were Xbee Series 1 radios broadcasting at 2.4 GHz). In an XNP network, each Xbee radio is configured in a basic send/receive configuration with the same PAN IDs. When an Xbee is connected to an Arduino Mega using one of the SerialX ports (XNP defaults to Serial1, PINs 18 and 19), XNP allows the Arduino伍西s to communicate in real-time with other similarly-configured Arduino Megas. The XNP protocol allows any number of Xbee-enabled Megas to communicate with one-another and has three different modes of operation for different applications (Full Mesh Networking, Non-Mesh Networking, and Fast-and-Furious Networking). Each mode has strengths and weakness over the other depending on the application.
+The Xbee Network Protocol is designed to allow Xbee-enabled Arduino Megas (and eventually UNOs) to communicate with one another wirelessly (the versions used with XNP were Xbee Series 1 radios broadcasting at 2.4 GHz). In an XNP network, each Xbee radio is configured in a basic send/receive configuration with the same PAN IDs. When an Xbee is connected to an Arduino Mega using one of the SerialX ports (XNP defaults to Serial1, PINs 18 and 19), XNP allows the Arduinos to communicate in real-time with other similarly-configured Arduino Megas. The XNP protocol allows any number of Xbee-enabled Megas to communicate with one-another and has three different modes of operation for different applications (Full Mesh Networking, Non-Mesh Networking, and Fast-and-Furious Networking). Each mode has strengths and weakness over the other depending on the application.
 
-You伍西ll need two Arduino Mega-2560's to run the Alpha-code, Two Adafruit Xbee radio adapter kits (or equivalent) and Two Series 1 Xbee Radios to get started. I provide a detailed instruction guide on how to setup an XNP router, and documentation that will help you to understand how it works. The sketch started with example code from Lady Adas tutorials on Xbee and the Tweet-A-Week kit. The maximum number of XNP-enabled Xbee Arduino Megas that can successfully talk in the same room has not been confirmed, but so far I have had 5 working together on my desk with a 100% data transmission success rate.
+You will need two Arduino Mega-2560's to run the Alpha-code, Two Adafruit Xbee radio adapter kits (or equivalent) and Two Series 1 Xbee Radios to get started. I provide a detailed instruction guide on how to setup an XNP router, and documentation that will help you to understand how it works. The sketch started with example code from Lady Ada's tutorials on Xbee and the Tweet-A-Week kit. The maximum number of XNP-enabled Xbee Arduino Megas that can successfully talk in the same room has not been confirmed, but so far I have had 5 working together on my desk with a 100% data transmission success rate.
 
 Release:
 
@@ -10,7 +10,8 @@ This is the ALPHA-S code release for XNP, and should be stable for users trying 
 
 Comments / Questions:
 
-The main XNP forum post can be found at Adafruit Industries: http://forums.adafruit.com/viewtopic.php?f=40&t=25540  Feel free to ask me any questions or post constructive criticism about XNP. :) 
+The main XNP forum post can be found at Adafruit Industries: http://forums.adafruit.com/viewtopic.php?f=40&t=25540  
+Feel free to ask me any questions or post constructive criticism about XNP. :) 
 
 Documentation:
 
@@ -18,8 +19,7 @@ You will find all current documentation on the XNP website: http://sojournstudio
 
 Credits:
 
-Lady Ada and her team at Adafruit Industries have been my greatest inspiration for this and my other RiderNet projects, and much credit goes to her for code examples, wonderful tutorials and fantastic support 雾务 all of which were critical to getting XNP and what I伍西m calling the 西熙RiderX伍西 projects up and running. The weekly Ask An Engineer webcast/show has provided me with weekly insights, answers to engineering questions and Huge motivation to continue forward. So where credit for XNP is concerned, I share that equally with Lady Ada and Adafruit Industries who provided me with the hardware, software and inspiration to write XNP.Len17 on the Adafruit Forums has already given me a huge help in converting character strings into unsigned-long integers (Thanks Len!).
-
+Lady Ada and her team at Adafruit Industries have been my greatest inspiration for this and my other RiderNet projects, and much credit goes to her for code examples, wonderful tutorials and fantastic support, all of which were critical to getting XNP and what I'm calling the "RiderX" projects up and running. The weekly Ask An Engineer webcast/show has provided me with weekly insights, answers to engineering questions and Huge motivation to continue forward. So where credit for XNP is concerned, I share that equally with Lady Ada and Adafruit Industries who provided me with the hardware, software and inspiration to write XNP.Len17 on the Adafruit Forums has already givenme a huge help in converting character strings into unsigned-long integers (Thanks Len!).
 
 Cheers,
 
